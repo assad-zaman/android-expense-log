@@ -42,10 +42,10 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView textView;
     private static final String DRIVER ="oracle.jdbc.driver.OracleDriver";
-    //private static final String URL ="jdbc:oracle.thin@10.1.130.121:1521:PROD";
-    private static final String URL  ="jdbc:oracle:thin:@//192.168.112.9:1521/ORCL";
-    private static final String USERNAME ="MDM";
-    private static final String PASSWORD ="MDM";
+   
+    private static final String URL  ="jdbc:oracle:thin:@//192.168.0.0:1521/DB";
+    private static final String USERNAME ="master";
+    private static final String PASSWORD ="master";
     private Connection connection;
 
     ImageView imageView;
